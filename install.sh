@@ -9,7 +9,7 @@ sudo=sudo
 # Prepare system and install dependencies
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install curl gperf cmake byacc flex -y
+sudo apt-get install build-essential curl gperf cmake byacc flex -y
 
 # Download stuff
 if [[ ! -f verilog-0.8.7.tar.gz ]]; then
