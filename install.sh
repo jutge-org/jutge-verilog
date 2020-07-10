@@ -13,10 +13,10 @@ sudo apt-get install build-essential curl gperf cmake byacc flex -y
 
 # Download stuff
 if [[ ! -f verilog-0.8.7.tar.gz ]]; then
-	curl "http://www.cs.upc.edu/~jspedro/cv/verilog-0.8.7.tar.gz" -o verilog-0.8.7.tar.gz
+	curl "https://www.cs.upc.edu/~jspedro/cv/verilog-0.8.7.tar.gz" -o verilog-0.8.7.tar.gz
 fi
 if [[ ! -f verilog-0.8.7-patches.tar.gz ]]; then
-	curl "http://www.cs.upc.edu/~jspedro/cv/verilog-0.8.7-patches.tar.gz" -o verilog-0.8.7-patches.tar.gz
+	curl "https://www.cs.upc.edu/~jspedro/cv/verilog-0.8.7-patches.tar.gz" -o verilog-0.8.7-patches.tar.gz
 fi
 if [[ ! -f NuSMV-2.6.0.tar.gz ]]; then
 	curl "http://nusmv.fbk.eu/distrib/NuSMV-2.6.0.tar.gz" -o NuSMV-2.6.0.tar.gz
